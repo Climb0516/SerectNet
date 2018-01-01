@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37E2F8C21FFA674E006A79A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8C11FFA674E006A79A0 /* AppDelegate.m */; };
+		37E2F8C51FFA674E006A79A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8C41FFA674E006A79A0 /* ViewController.m */; };
+		37E2F8C81FFA674E006A79A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F8C61FFA674E006A79A0 /* Main.storyboard */; };
+		37E2F8CA1FFA674E006A79A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F8C91FFA674E006A79A0 /* Assets.xcassets */; };
+		37E2F8CD1FFA674E006A79A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E2F8CB1FFA674E006A79A0 /* LaunchScreen.storyboard */; };
+		37E2F8D01FFA674E006A79A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8CF1FFA674E006A79A0 /* main.m */; };
+		37E2F8DA1FFA674E006A79A0 /* SerectNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8D91FFA674E006A79A0 /* SerectNetTests.m */; };
+		37E2F8E51FFA674E006A79A0 /* SerectNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8E41FFA674E006A79A0 /* SerectNetUITests.m */; };
+		37E2F8F51FFA689B006A79A0 /* NetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8F41FFA689B006A79A0 /* NetManager.m */; };
+		37E2F8FC1FFA6A66006A79A0 /* GetIpAdress.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8F61FFA6A65006A79A0 /* GetIpAdress.m */; };
+		37E2F8FD1FFA6A66006A79A0 /* UrlParamManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8F91FFA6A66006A79A0 /* UrlParamManager.m */; };
+		37E2F8FE1FFA6A66006A79A0 /* ApiParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F8FB1FFA6A66006A79A0 /* ApiParam.m */; };
+		37E2F9021FFA6B7F006A79A0 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F9001FFA6B7E006A79A0 /* NSString+Util.m */; };
+		37E2F9051FFA6D16006A79A0 /* UserInfoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F9031FFA6D15006A79A0 /* UserInfoData.m */; };
+		37E2F9081FFA6EFB006A79A0 /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F9071FFA6EFB006A79A0 /* HomeModel.m */; };
+		37E2F90B1FFA715C006A79A0 /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E2F9091FFA715B006A79A0 /* NSDate+Util.m */; };
+		CB76EF5C063F61B146890AD2 /* libPods-SerectNet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8295FE432072162CB875BF0D /* libPods-SerectNet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37E2F8D61FFA674E006A79A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2F8B51FFA674E006A79A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E2F8BC1FFA674E006A79A0;
+			remoteInfo = SerectNet;
+		};
+		37E2F8E11FFA674E006A79A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37E2F8B51FFA674E006A79A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37E2F8BC1FFA674E006A79A0;
+			remoteInfo = SerectNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17D5DD60650DAA4AD2F0A67A /* Pods-SerectNet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerectNet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SerectNet/Pods-SerectNet.debug.xcconfig"; sourceTree = "<group>"; };
+		37E2F8BD1FFA674E006A79A0 /* SerectNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SerectNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F8C01FFA674E006A79A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37E2F8C11FFA674E006A79A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37E2F8C31FFA674E006A79A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37E2F8C41FFA674E006A79A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37E2F8C71FFA674E006A79A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E2F8C91FFA674E006A79A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E2F8CC1FFA674E006A79A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E2F8CE1FFA674E006A79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2F8CF1FFA674E006A79A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37E2F8D51FFA674E006A79A0 /* SerectNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerectNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F8D91FFA674E006A79A0 /* SerectNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerectNetTests.m; sourceTree = "<group>"; };
+		37E2F8DB1FFA674E006A79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2F8E01FFA674E006A79A0 /* SerectNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SerectNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E2F8E41FFA674E006A79A0 /* SerectNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerectNetUITests.m; sourceTree = "<group>"; };
+		37E2F8E61FFA674E006A79A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E2F8F21FFA682A006A79A0 /* APINetMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APINetMacro.h; sourceTree = "<group>"; };
+		37E2F8F31FFA689B006A79A0 /* NetManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetManager.h; sourceTree = "<group>"; };
+		37E2F8F41FFA689B006A79A0 /* NetManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetManager.m; sourceTree = "<group>"; };
+		37E2F8F61FFA6A65006A79A0 /* GetIpAdress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetIpAdress.m; sourceTree = "<group>"; };
+		37E2F8F71FFA6A66006A79A0 /* GetIpAdress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetIpAdress.h; sourceTree = "<group>"; };
+		37E2F8F81FFA6A66006A79A0 /* UrlParamManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlParamManager.h; sourceTree = "<group>"; };
+		37E2F8F91FFA6A66006A79A0 /* UrlParamManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlParamManager.m; sourceTree = "<group>"; };
+		37E2F8FA1FFA6A66006A79A0 /* ApiParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiParam.h; sourceTree = "<group>"; };
+		37E2F8FB1FFA6A66006A79A0 /* ApiParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiParam.m; sourceTree = "<group>"; };
+		37E2F8FF1FFA6B43006A79A0 /* UtilsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
+		37E2F9001FFA6B7E006A79A0 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		37E2F9011FFA6B7E006A79A0 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		37E2F9031FFA6D15006A79A0 /* UserInfoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoData.m; sourceTree = "<group>"; };
+		37E2F9041FFA6D15006A79A0 /* UserInfoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoData.h; sourceTree = "<group>"; };
+		37E2F9061FFA6EFB006A79A0 /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		37E2F9071FFA6EFB006A79A0 /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		37E2F9091FFA715B006A79A0 /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
+		37E2F90A1FFA715B006A79A0 /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		65F2B8FB2CCC237BB091B9EC /* Pods-SerectNet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SerectNet.release.xcconfig"; path = "Pods/Target Support Files/Pods-SerectNet/Pods-SerectNet.release.xcconfig"; sourceTree = "<group>"; };
+		8295FE432072162CB875BF0D /* libPods-SerectNet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SerectNet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37E2F8BA1FFA674E006A79A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB76EF5C063F61B146890AD2 /* libPods-SerectNet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8D21FFA674E006A79A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8DD1FFA674E006A79A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37E2F8B41FFA674E006A79A0 = {
+			isa = PBXGroup;
+			children = (
+				37E2F8BF1FFA674E006A79A0 /* SerectNet */,
+				37E2F8D81FFA674E006A79A0 /* SerectNetTests */,
+				37E2F8E31FFA674E006A79A0 /* SerectNetUITests */,
+				37E2F8BE1FFA674E006A79A0 /* Products */,
+				BA16BF5C99B1D13526D51159 /* Pods */,
+				7BACB5C98EEF8B763ED4B59A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37E2F8BE1FFA674E006A79A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8BD1FFA674E006A79A0 /* SerectNet.app */,
+				37E2F8D51FFA674E006A79A0 /* SerectNetTests.xctest */,
+				37E2F8E01FFA674E006A79A0 /* SerectNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37E2F8BF1FFA674E006A79A0 /* SerectNet */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8C01FFA674E006A79A0 /* AppDelegate.h */,
+				37E2F8C11FFA674E006A79A0 /* AppDelegate.m */,
+				37E2F8C31FFA674E006A79A0 /* ViewController.h */,
+				37E2F8C41FFA674E006A79A0 /* ViewController.m */,
+				37E2F9061FFA6EFB006A79A0 /* HomeModel.h */,
+				37E2F9071FFA6EFB006A79A0 /* HomeModel.m */,
+				37E2F8F21FFA682A006A79A0 /* APINetMacro.h */,
+				37E2F8FF1FFA6B43006A79A0 /* UtilsMacro.h */,
+				37E2F8F31FFA689B006A79A0 /* NetManager.h */,
+				37E2F8F41FFA689B006A79A0 /* NetManager.m */,
+				37E2F8FA1FFA6A66006A79A0 /* ApiParam.h */,
+				37E2F8FB1FFA6A66006A79A0 /* ApiParam.m */,
+				37E2F8F71FFA6A66006A79A0 /* GetIpAdress.h */,
+				37E2F8F61FFA6A65006A79A0 /* GetIpAdress.m */,
+				37E2F8F81FFA6A66006A79A0 /* UrlParamManager.h */,
+				37E2F8F91FFA6A66006A79A0 /* UrlParamManager.m */,
+				37E2F9011FFA6B7E006A79A0 /* NSString+Util.h */,
+				37E2F9001FFA6B7E006A79A0 /* NSString+Util.m */,
+				37E2F90A1FFA715B006A79A0 /* NSDate+Util.h */,
+				37E2F9091FFA715B006A79A0 /* NSDate+Util.m */,
+				37E2F9041FFA6D15006A79A0 /* UserInfoData.h */,
+				37E2F9031FFA6D15006A79A0 /* UserInfoData.m */,
+				37E2F8C61FFA674E006A79A0 /* Main.storyboard */,
+				37E2F8C91FFA674E006A79A0 /* Assets.xcassets */,
+				37E2F8CB1FFA674E006A79A0 /* LaunchScreen.storyboard */,
+				37E2F8CE1FFA674E006A79A0 /* Info.plist */,
+				37E2F8CF1FFA674E006A79A0 /* main.m */,
+			);
+			path = SerectNet;
+			sourceTree = "<group>";
+		};
+		37E2F8D81FFA674E006A79A0 /* SerectNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8D91FFA674E006A79A0 /* SerectNetTests.m */,
+				37E2F8DB1FFA674E006A79A0 /* Info.plist */,
+			);
+			path = SerectNetTests;
+			sourceTree = "<group>";
+		};
+		37E2F8E31FFA674E006A79A0 /* SerectNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37E2F8E41FFA674E006A79A0 /* SerectNetUITests.m */,
+				37E2F8E61FFA674E006A79A0 /* Info.plist */,
+			);
+			path = SerectNetUITests;
+			sourceTree = "<group>";
+		};
+		7BACB5C98EEF8B763ED4B59A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8295FE432072162CB875BF0D /* libPods-SerectNet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA16BF5C99B1D13526D51159 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17D5DD60650DAA4AD2F0A67A /* Pods-SerectNet.debug.xcconfig */,
+				65F2B8FB2CCC237BB091B9EC /* Pods-SerectNet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37E2F8BC1FFA674E006A79A0 /* SerectNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F8E91FFA674E006A79A0 /* Build configuration list for PBXNativeTarget "SerectNet" */;
+			buildPhases = (
+				BA8722052BF21ED189A1CC3A /* [CP] Check Pods Manifest.lock */,
+				37E2F8B91FFA674E006A79A0 /* Sources */,
+				37E2F8BA1FFA674E006A79A0 /* Frameworks */,
+				37E2F8BB1FFA674E006A79A0 /* Resources */,
+				9DE7A3019B3DC03C6C9DB861 /* [CP] Embed Pods Frameworks */,
+				17D57D8F30FE36A6260C9475 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SerectNet;
+			productName = SerectNet;
+			productReference = 37E2F8BD1FFA674E006A79A0 /* SerectNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37E2F8D41FFA674E006A79A0 /* SerectNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F8EC1FFA674E006A79A0 /* Build configuration list for PBXNativeTarget "SerectNetTests" */;
+			buildPhases = (
+				37E2F8D11FFA674E006A79A0 /* Sources */,
+				37E2F8D21FFA674E006A79A0 /* Frameworks */,
+				37E2F8D31FFA674E006A79A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2F8D71FFA674E006A79A0 /* PBXTargetDependency */,
+			);
+			name = SerectNetTests;
+			productName = SerectNetTests;
+			productReference = 37E2F8D51FFA674E006A79A0 /* SerectNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37E2F8DF1FFA674E006A79A0 /* SerectNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37E2F8EF1FFA674E006A79A0 /* Build configuration list for PBXNativeTarget "SerectNetUITests" */;
+			buildPhases = (
+				37E2F8DC1FFA674E006A79A0 /* Sources */,
+				37E2F8DD1FFA674E006A79A0 /* Frameworks */,
+				37E2F8DE1FFA674E006A79A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37E2F8E21FFA674E006A79A0 /* PBXTargetDependency */,
+			);
+			name = SerectNetUITests;
+			productName = SerectNetUITests;
+			productReference = 37E2F8E01FFA674E006A79A0 /* SerectNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37E2F8B51FFA674E006A79A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "王攀登";
+				TargetAttributes = {
+					37E2F8BC1FFA674E006A79A0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+					37E2F8D41FFA674E006A79A0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37E2F8BC1FFA674E006A79A0;
+					};
+					37E2F8DF1FFA674E006A79A0 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37E2F8BC1FFA674E006A79A0;
+					};
+				};
+			};
+			buildConfigurationList = 37E2F8B81FFA674E006A79A0 /* Build configuration list for PBXProject "SerectNet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37E2F8B41FFA674E006A79A0;
+			productRefGroup = 37E2F8BE1FFA674E006A79A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37E2F8BC1FFA674E006A79A0 /* SerectNet */,
+				37E2F8D41FFA674E006A79A0 /* SerectNetTests */,
+				37E2F8DF1FFA674E006A79A0 /* SerectNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37E2F8BB1FFA674E006A79A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F8CD1FFA674E006A79A0 /* LaunchScreen.storyboard in Resources */,
+				37E2F8CA1FFA674E006A79A0 /* Assets.xcassets in Resources */,
+				37E2F8C81FFA674E006A79A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8D31FFA674E006A79A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8DE1FFA674E006A79A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17D57D8F30FE36A6260C9475 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SerectNet/Pods-SerectNet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DE7A3019B3DC03C6C9DB861 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SerectNet/Pods-SerectNet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA8722052BF21ED189A1CC3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SerectNet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37E2F8B91FFA674E006A79A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F9081FFA6EFB006A79A0 /* HomeModel.m in Sources */,
+				37E2F8FC1FFA6A66006A79A0 /* GetIpAdress.m in Sources */,
+				37E2F8FD1FFA6A66006A79A0 /* UrlParamManager.m in Sources */,
+				37E2F8C51FFA674E006A79A0 /* ViewController.m in Sources */,
+				37E2F9051FFA6D16006A79A0 /* UserInfoData.m in Sources */,
+				37E2F9021FFA6B7F006A79A0 /* NSString+Util.m in Sources */,
+				37E2F8FE1FFA6A66006A79A0 /* ApiParam.m in Sources */,
+				37E2F8F51FFA689B006A79A0 /* NetManager.m in Sources */,
+				37E2F8D01FFA674E006A79A0 /* main.m in Sources */,
+				37E2F90B1FFA715C006A79A0 /* NSDate+Util.m in Sources */,
+				37E2F8C21FFA674E006A79A0 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8D11FFA674E006A79A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F8DA1FFA674E006A79A0 /* SerectNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37E2F8DC1FFA674E006A79A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E2F8E51FFA674E006A79A0 /* SerectNetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37E2F8D71FFA674E006A79A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E2F8BC1FFA674E006A79A0 /* SerectNet */;
+			targetProxy = 37E2F8D61FFA674E006A79A0 /* PBXContainerItemProxy */;
+		};
+		37E2F8E21FFA674E006A79A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37E2F8BC1FFA674E006A79A0 /* SerectNet */;
+			targetProxy = 37E2F8E11FFA674E006A79A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37E2F8C61FFA674E006A79A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F8C71FFA674E006A79A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37E2F8CB1FFA674E006A79A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37E2F8CC1FFA674E006A79A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37E2F8E71FFA674E006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37E2F8E81FFA674E006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37E2F8EA1FFA674E006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17D5DD60650DAA4AD2F0A67A /* Pods-SerectNet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SerectNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.SerectNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37E2F8EB1FFA674E006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F2B8FB2CCC237BB091B9EC /* Pods-SerectNet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SerectNet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.SerectNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37E2F8ED1FFA674E006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerectNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.SerectNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerectNet.app/SerectNet";
+			};
+			name = Debug;
+		};
+		37E2F8EE1FFA674E006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerectNetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.SerectNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SerectNet.app/SerectNet";
+			};
+			name = Release;
+		};
+		37E2F8F01FFA674E006A79A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerectNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.SerectNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerectNet;
+			};
+			name = Debug;
+		};
+		37E2F8F11FFA674E006A79A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SerectNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Climb.SerectNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SerectNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37E2F8B81FFA674E006A79A0 /* Build configuration list for PBXProject "SerectNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F8E71FFA674E006A79A0 /* Debug */,
+				37E2F8E81FFA674E006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F8E91FFA674E006A79A0 /* Build configuration list for PBXNativeTarget "SerectNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F8EA1FFA674E006A79A0 /* Debug */,
+				37E2F8EB1FFA674E006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F8EC1FFA674E006A79A0 /* Build configuration list for PBXNativeTarget "SerectNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F8ED1FFA674E006A79A0 /* Debug */,
+				37E2F8EE1FFA674E006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37E2F8EF1FFA674E006A79A0 /* Build configuration list for PBXNativeTarget "SerectNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37E2F8F01FFA674E006A79A0 /* Debug */,
+				37E2F8F11FFA674E006A79A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37E2F8B51FFA674E006A79A0 /* Project object */;
+}
