@@ -41,7 +41,6 @@
     [param setValue:[@"iOS" stringByAppendingString:kCURRENT_SYS_VERSION] forKey:@"sys"];
     [param setValue:APP_KEY          forKey:@"key"];
     [param setValue:[NSString stringWithFormat:@"%ld", (long)[[NSDate date] timeIntervalSince1970]] forKey:@"timestamp"];
-    
     UserInfoData *userSession = [UserInfoData getUserDefault];
     if (userSession.isLogin) {
         [param setValue:userSession.token forKey:@"token"];
